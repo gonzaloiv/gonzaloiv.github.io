@@ -7,9 +7,9 @@ compass:
   # an avatar or logo (optional)
   logo: "/images/compass.png"
   # author will appear under the avatar (optional)
-  author: "Gonzalo Iglesias"
+  author: "Gonzalo Iglesias Vilachán"
   # tagline will appear under the title (optional)
-  tagline: "Front-End thinking in bad english..."
+  tagline: "Media / Culture/ Developement"
   # if include_content is true, the contents of the content.html include will be
   # added right above the generated item list, if present
   include_content: true
