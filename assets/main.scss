@@ -1,12 +1,12 @@
 ---
 ---
 
-$text-color: #4A4A4A;
+$text-color: #46433A;
 $anchor-text-color: #CE534D;
-$background-color: white;
+$background-color: #F1EED9;
 
 body {
-	font-family: serif;
+	font-family: 'Vollkorn', serif;
 	color: $text-color;
 	background-color: $background-color;
 }
@@ -66,6 +66,8 @@ since it must be aligned with the content */
 	background-size: cover;
 	border-radius: 50%;
 	-moz-border-radius: 50%;
+	border: 2px solid $background-color;
+	box-shadow: 0 0 0 3px $text-color;
 }
 
 /*** author ***/
