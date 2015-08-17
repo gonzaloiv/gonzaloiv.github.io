@@ -1,0 +1,8 @@
+<ul>
+    {% for post in site.posts %}
+        <h2 href="{{ post.url }}">{{ post.title }} </h2>
+        <p class="colored">{{ post.date | date: '%B %d, %Y' }}</p>
+        <p>{{ post.content }}</p>
+        <hr>
+    {% endfor %}
+</ul>

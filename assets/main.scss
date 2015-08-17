@@ -34,7 +34,6 @@ a:hover {
 	text-decoration: underline;
 }
 
-
 /*** main content list ***/
 .main-list-item {
 	font-weight: bold;
@@ -145,4 +144,10 @@ footer {
 		margin-left: 54%;
 		padding: 0;
 	}
+}
+
+// extras
+
+.colored{
+    color:$anchor-text-color;
 }

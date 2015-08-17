@@ -1,7 +1,8 @@
 ---
 layout: base
-title: home
+title: author
 ---
+
 <div class="wrapper">
     <header>
         {% if site.compass.logo %}
@@ -10,18 +11,16 @@ title: home
         </div>
         {% endif %}
 
-        {% if site.compass.author %}
-        <div class="author-container"><h1>{{ site.compass.author }}</h1></div>
+        {% if site.compass.title %}
+        <div class="author-container"><h1>{{ site.compass.title }}</h1></div>
         {% endif %}
 
-        {% if site.compass.tagline %}
-        <div class="tagline-container"><p>{{ site.compass.tagline }}</p></div>
-        {% endif %}
+        <div class="tagline-container"><p>Client-Side thinking in bad English (and Spanish)</p></div>
     </header>
     <main>
       {% if site.compass.include_content %}
       <div class="content">
-        {% include content.html %}
+        {% include post-page.html %}
       </div>
       {% endif %}
     </main>
