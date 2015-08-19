@@ -5,7 +5,7 @@ baseurl: ''
 # compass configuration
 compass:
   # logo (optional)
-  logo: "/data/compass.png"
+  logo: "/data/Compass.png"
   # author will appear under the avatar (optional)
   author: "Gonzalo Iglesias Vilachán"
   # tagline will appear under the title (optional)
