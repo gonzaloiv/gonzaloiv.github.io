@@ -1,27 +1,28 @@
 ---
-layout: base
-title: author
+permaling: lol
+layout: blog
 ---
 
 <div class="wrapper">
-    <header>
-        {% if site.compass.logo %}
-        <div class="logo-container">
-          <a class="logo" href="{{ page.baseurl }}" style="background-image: url('{{ site.baseurl }}{{ site.compass.logo }}')"></a>
-        </div>
-        {% endif %}
-
-        {% if site.compass.title %}
-        <div class="author-container"><h1>{{ site.compass.title }}</h1></div>
-        {% endif %}
-
-        <div class="tagline-container"><p>Client-Side thinking in bad English (and Spanish)</p></div>
-    </header>
-    <main>
-      {% if site.compass.include_content %}
-      <div class="content">
-        {% include post-page.html %}
-      </div>
-      {% endif %}
-    </main>
+  <header>
+    {% if site.compass.logo %}
+    <div class="logo-container">
+      <a class="logo" href="{{ page.baseurl }}" style="background-image: url('{{ site.baseurl }}{{ site.compass.logo }}')"></a>
+    </div>
+    {% endif %} {% if site.compass.title %}
+    <div class="author-container">
+      <h1>{{ site.compass.title }}</h1>
+    </div>
+    {% endif %}
+    <div class="tagline-container">
+      <p>Client-Side thinking in bad English (and Spanish)</p>
+    </div>
+  </header>
+  <main>
+    {% if site.compass.include_content %}
+    <div class="content">
+      {% include post-page.html %}
+    </div>
+    {% endif %}
+  </main>
 </div>

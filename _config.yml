@@ -1,29 +1,19 @@
-# general configuration
-url: http://elpanoptico.xyz
-baseurl: ''
+# Site settings
+title: gonzaloiv
+author: Gonzalo Iglesias Vilachán
+email: gonzalo_iglesias_vilachan@hotmail.com
+description: "Media, Culture and Code"
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://www.elpanoptico.xyz" # the base hostname & protocol for your site
+twitter_username: iamgonzaloiv
+github_username:  gonzaloiv
 
-# compass configuration
-compass:
-  # logo (optional)
-  logo: "/data/Compass.png"
-  # author will appear under the avatar (optional)
-  author: "Gonzalo Iglesias Vilachán"
-  # tagline will appear under the title (optional)
-  tagline: "Media, culture, development"
-  # Just for the post-page
-  title: "El Panóptico"
-  # if include_content is true, the contents of the content.html include will be
-  # added right above the generated item list, if present
-  include_content: true
-  # if include_analytics is true, the content of the analytics.html include will
-  # be added at the end of the <head> section. You can add your Google Analytics
-  # Tracking Code to that file.
-  include_analytics: false
+# Theme settings
+include_content: true
+logo: "/assets/img/logo.png"
 
-# Dependencies
+# Build settings
+include: ['_pages']
 markdown: kramdown
 highlighter: pygments
 
-# Permalinks
-permalink: pretty
-relative_permalinks: true

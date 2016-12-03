@@ -1,5 +1,6 @@
+@import url(css/normalize.css);
 body {
-  font-family: 'Vollkorn', serif;
+  font-family: 'Neuton', serif;
   color: #4A4A4A;
   background-color: white; }
 
@@ -95,12 +96,12 @@ footer {
 /* All other devices (768px and up) */
 @media (min-width: 768px) {
   /* past 768px the layout is changed and the wrapper has a fixed width of 680px
-  to accomodate both the header column and the content column */
+to accomodate both the header column and the content column */
   .wrapper {
     width: 680px; }
 
   /* the header column stays left and has a dynamic width with all contents
-  aligned right */
+aligned right */
   header {
     float: left;
     width: 46%;
