@@ -4,11 +4,12 @@ layout: main
 
 <div class="wrapper">
   <header>
-    {% if site.compass.logo %}
     <div class="logo-container">
-      <a class="logo" href="{{ page.baseurl }}" style="background-image: url('{{ site.baseurl }}{{ site.compass.logo }}')"></a>
+      <a class="logo" href="{{ page.baseurl }}">
+        {% image logo.png class: "logo" %}
+      </a>
     </div>
-    {% endif %} {% if site.compass.title %}
+    {% if site.compass.title %}
     <div class="author-container">
       <h1>{{ site.compass.title }}</h1>
     </div>
@@ -18,10 +19,8 @@ layout: main
     </div>
   </header>
   <main>
-    {% if site.compass.include_content %}
     <div class="content">
-      {% include post-page.html %}
+      {% include blog/post.html %}
     </div>
-    {% endif %}
   </main>
 </div>

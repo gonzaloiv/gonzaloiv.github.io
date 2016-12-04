@@ -1,11 +1,36 @@
-$text-color: #4A4A4A;
-$anchor-text-color: #CE534D;
-$background-color: white;
+// FONTS
+
 $serif: 'Neuton', serif;
 $sans-serif: 'Oswald', sans-serif;
+
+$base-font-size: 1em;
+$base-font-weight: 400;
+$small-font-size: $base-font-size * 0.875;
+$base-line-height: 1.4;
+
+$spacing-unit:     30px;
+
+// COLORS
+
+$text-color:       rgba(0,0,0,.8);
+$background-color: #fdfdfd;
+$brand-color:      #ffd800;
+$anchor-text-color: #CE534D;
+
+$grey-color:       #828282;
+$grey-color-light: lighten($grey-color, 40%);
+$grey-color-dark:  darken($grey-color, 25%);
+
+%vertical-rhythm {
+  margin-bottom: $spacing-unit / 2;
+}
+
+// FILES
 
 @import
 'normalize',
 'font-awesome-sprockets',
 'font-awesome',
-'index'
+'common',
+'syntax-highlighting',
+'blog'
