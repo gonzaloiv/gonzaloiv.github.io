@@ -1,5 +1,5 @@
 common:
-  title: gonzaloiv
+  title: Rollos, movidas y otras historias...
   author: Gonzalo Iglesias Vilachán
   description: Comunicación, diseño y programación
   email: gonzalo_iglesias_vilachan@hotmail.com
@@ -12,3 +12,7 @@ global:
 
 about_me:
   description: "A full time explorer from Santiago de Compostela currently doing an internship at Cyberspace Solutions. These are some of the things I have been doing lately:"
+  cv_link: "https://drive.google.com/file/d/0B4Ai2actge7mVVNSVTZBeXRjdEk/view?usp=sharing"
+
+blog:
+  no_posts: "No hay ningún post publicado en español..."

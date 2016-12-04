@@ -1,0 +1,16 @@
+.site-header {
+  border-top: none;
+  min-height: 56px;
+
+  // Positioning context for the mobile navigation icon
+  position: relative;
+}
+
+.blog-title-container h1 {
+  font-size: $base-font-size * 2;
+  line-height: $base-line-height / 2;
+  margin-top: 0;
+  margin-bottom: 0;
+  text-align: right;
+}
+

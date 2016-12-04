@@ -2,25 +2,25 @@
 layout: main
 ---
 
+{% include partials/header.html %}
+
 <div class="wrapper">
   <header>
-    <div class="logo-container">
+    <!--<div class="logo-container">
       <a class="logo" href="{{ page.baseurl }}">
         {% image logo.png class: "logo" %}
       </a>
+    </div>-->
+    <div class="blog-title-container">
+      <h1>{% t common.title %}</h1>
     </div>
-    {% if site.compass.title %}
-    <div class="author-container">
-      <h1>{{ site.compass.title }}</h1>
-    </div>
-    {% endif %}
-    <div class="tagline-container">
-      <p>Client-Side thinking in bad English (and Spanish)</p>
-    </div>
+    <!--<div class="tagline-container">
+      <p>{% t common.description %}</p>
+    </div>-->
   </header>
   <main>
     <div class="content">
-      {% include blog/post.html %}
+      {% include blog/posts.html %}
     </div>
   </main>
 </div>
