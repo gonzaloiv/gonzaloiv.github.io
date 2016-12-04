@@ -1,13 +1,14 @@
-# jekyll
+# Jekyll
 _site
 .sass-cache
 .jekyll-metadata
 
-# ruby
+# Ruby
 Gemfile.lock
 
-# os
+# OS
 .DS_Store
+.vscode
 
-# jekyll-assets
+# Jekyll-Assets
 .asset-cache

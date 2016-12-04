@@ -9,22 +9,17 @@ layout: main
         {% image logo.png class: "logo" %}
       </a>
     </div>
-    {% if site.author %}
-      <div class="author-container">
-        <h1>{{ site.author }}</h1>
-      </div>
-    {% endif %}
-    {% if site.tagline %}
-      <div class="tagline-container">
-        <p>{{ site.tagline }}</p>
-      </div>
-    {% endif %}
+    <div class="author-container">
+      <h1>{% t common.author %}</h1>
+    </div>
+    <div class="tagline-container">
+      <p>{% t common.description %}</p>
+    </div>
   </header>
   <main>
-    {% if site.include_content %}
-      <div class="content">
-        {% include index/about_me.html %}
-      </div>
-    {% endif %}
+    <div class="content">
+      {% include index/about_me.html %}
+    </div>
+    {% include partials/language_selector.html %}
   </main>
 </div>

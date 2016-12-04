@@ -1,0 +1,14 @@
+common:
+  title: gonzaloiv
+  author: Gonzalo Iglesias Vilachán
+  description: Media, Culture and Code
+  email: gonzalo_iglesias_vilachan@hotmail.com
+  twitter_username: iamgonzaloiv
+  github_username:  gonzaloiv
+
+global:
+  spanish: Español
+  english: Inglés
+
+about_me:
+  description: "A full time explorer from Santiago de Compostela currently doing an internship at Cyberspace Solutions. These are some of the things I have been doing lately:"
