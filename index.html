@@ -1,28 +1,30 @@
 ---
-layout: index
+layout: main
 ---
 
 <div class="wrapper">
   <header>
-    {% if site.logo %}
     <div class="logo-container">
-      <a class="logo" href="{{ page.baseurl }}" style="background-image: url('{{ site.logo | prepend: site.baseurl }}')"></a>
+      <a class="logo" href="{{ page.baseurl }}">
+        {% image logo.png class: "logo" %}
+      </a>
     </div>
-    {% endif %} {% if site.author %}
-    <div class="author-container">
-      <h1>{{ site.author }}</h1>
-    </div>
-    {% endif %} {% if site.tagline %}
-    <div class="tagline-container">
-      <p>{{ site.tagline }}</p>
-    </div>
+    {% if site.author %}
+      <div class="author-container">
+        <h1>{{ site.author }}</h1>
+      </div>
+    {% endif %}
+    {% if site.tagline %}
+      <div class="tagline-container">
+        <p>{{ site.tagline }}</p>
+      </div>
     {% endif %}
   </header>
   <main>
     {% if site.include_content %}
-    <div class="content">
-      {% include about.html %}
-    </div>
+      <div class="content">
+        {% include index/about_me.html %}
+      </div>
     {% endif %}
   </main>
 </div>

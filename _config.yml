@@ -10,10 +10,12 @@ github_username:  gonzaloiv
 
 # Theme settings
 include_content: true
-logo: "/assets/img/logo.png"
 
 # Build settings
-include: ['_pages']
 markdown: kramdown
 highlighter: pygments
+
+# Gems
+gems:
+  - jekyll-assets
 

@@ -1,6 +1,6 @@
 # jekyll
-_site/
-.sass-cache/
+_site
+.sass-cache
 .jekyll-metadata
 
 # ruby
@@ -8,3 +8,6 @@ Gemfile.lock
 
 # os
 .DS_Store
+
+# jekyll-assets
+.asset-cache

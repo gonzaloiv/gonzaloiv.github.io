@@ -1,11 +1,5 @@
----
----
-
-$text-color: #4A4A4A;
-$anchor-text-color: #CE534D;
-$background-color: white;
 body {
-  font-family: 'Neuton', serif;
+  font-family: $serif;
   color: $text-color;
   background-color: $background-color;
 }
@@ -69,7 +63,7 @@ since it must be aligned with the content */
   text-align: center;
 }
 
-.logo {
+.logo img {
   width: 96px;
   height: 96px;
   display: inline-block;
@@ -107,23 +101,6 @@ hr {
   background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0), $text-color, rgba(0, 0, 0, 0));
   background-image: -ms-linear-gradient(left, rgba(0, 0, 0, 0), $text-color, rgba(0, 0, 0, 0));
   background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0), $text-color, rgba(0, 0, 0, 0));
-}
-
-
-/*** footer ***/
-
-footer {
-  position: fixed;
-  bottom: 0;
-  right: 0;
-  height: 20px;
-}
-
-.poweredby {
-  font-family: "Arial Narrow", Arial;
-  font-size: 0.6em;
-  line-height: 0.6em;
-  padding: 0 5px;
 }
 
 
@@ -172,5 +149,3 @@ aligned right */
 .colored {
   color: $anchor-text-color;
 }
-
-@import "css/normalize.css";
