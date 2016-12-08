@@ -12,10 +12,10 @@
     <span class="fa fa-tumblr fa-lg main-list-item-icon"></span>
     <a href="http://oneofthosethingsfirst.tumblr.com">Sketchbook</a>
   </li>
-  {% if site.posts %}
+  {% if site.lang == "es" %}
     <li class="main-list-item">
       <span class="fa fa-eye fa-lg main-list-item-icon"></span>
-      <a href="{{ 'blog.html' | prepend: site.baseurl }}">Blog</a>
+      <a href="{{ '/blog.html' | prepend: site.baseurl }}">Blog</a>
     </li>
   {% endif %}
   <li class="main-list-item">
@@ -25,7 +25,7 @@
     <a href="http://gestoresderesiduos.org">Gestores de Residuos</a>
   </li>
 </ul>
-<hr />
+<hr>
 <p>
   Contact me at <a href="mailto:aelthalion@gmail.com">aelthalion@gmail.com</a> or take a look at my <a href="{% t about_me.cv_link %}">CV</a>.
 </p>

@@ -1,11 +1,9 @@
 <ul>
   {% if site.posts %}
     {% for post in site.posts %}
-      <h2 href="{{ post.url | prepend: site.baseurl }}">{{ post.title }} </h2>
+      <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }} </a></h2>
       <p class="colored">{{ post.date | date: '%B %d, %Y' }}</p>
       <hr>
     {% endfor %}
-  {% else %}
-
   {% endif %}
 </ul>
