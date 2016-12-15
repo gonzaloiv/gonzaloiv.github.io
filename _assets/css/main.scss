@@ -1,40 +1,18 @@
 // Fonts
 
-@import url(http://fonts.googleapis.com/css?family=Neuton|Oswald);
+@import  "font-awesome-sprockets";
+@import  "font-awesome";
 
-$serif: 'Neuton', serif;
-$sans-serif: 'Oswald', sans-serif;
+// Partials
 
-$base-font-size: 1.3em;
-$small-font-size: $base-font-size * 0.875;
-$base-line-height: 1.4;
+@import  "partials/variables";
+@import  "partials/helpers";
 
-// Colors
+// Components
 
-$text-color:       rgba(0,0,0,.8);
-$background-color: #fdfdfd;
-$brand-color:      #ffd800;
-$anchor-text-color: #CE534D;
+@import  "components/components";
 
-$grey-color:       #828282;
-$grey-color-light: lighten($grey-color, 40%);
-$grey-color-dark:  darken($grey-color, 25%);
+// Vendor
 
-// Other variables
-
-$spacing-unit:     30px;
-
-%vertical-rhythm {
-  margin-bottom: $spacing-unit / 2;
-}
-
-// Files
-
-@import
-'normalize',
-'font-awesome-sprockets',
-'font-awesome',
-'common',
-'index',
-'blog',
-'syntax-highlighting';
+@import  "vendor/normalize";
+@import  "vendor/simplegrid";

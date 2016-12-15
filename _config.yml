@@ -1,5 +1,5 @@
 # Site settings
-title: Gonzalo Iglesias Vilachán
+title: "gonzaloiv.es"
 
 # Build settings
 markdown: kramdown
@@ -11,6 +11,6 @@ gems:
   - jekyll-multiple-languages-plugin
 
 # Localization
-languages: ["es", "en"]
-language_default: 'es'
+languages: ["es"]
+language_default: "es"
 exclude_from_localizations: ["javascript", "images", "css"]

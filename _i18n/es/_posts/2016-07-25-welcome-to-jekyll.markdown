@@ -1,7 +1,7 @@
 ---
-layout: post
-lang: es
-title:  "Welcome to Jekyll!"
+layout: main
+categories: code
+title:  El corrector ortográfico
 date:   2016-07-25 13:01:10 +0200
 ---
 

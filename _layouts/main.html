@@ -1,7 +1,15 @@
 <!DOCTYPE html>
 <html>
-  {% include partials/head.html %}
-  <body>
-    {{ content }}
-  </body>
+
+<body>
+  {% include partials/header.html %}
+  <main>
+    {% include partials/nav.html %}
+    <section>
+      {{ content }}
+    </section>
+    {% include partials/footer.html %}
+  </main>
+</body>
+
 </html>

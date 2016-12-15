@@ -1,25 +1,6 @@
 ---
+title: Home
 layout: main
 ---
 
-<div class="wrapper">
-  <header>
-    <div class="logo-container">
-      <a class="logo" href="{{ page.baseurl }}">
-        {% image logo.png class: "logo" %}
-      </a>
-    </div>
-    <div class="author-container">
-      <h1>{% t common.author %}</h1>
-    </div>
-    <div class="tagline-container">
-      <p>{% t common.description %}</p>
-    </div>
-  </header>
-  <main>
-    <div class="content">
-      {% include index/about.html %}
-    </div>
-    {% include partials/language_selector.html %}
-  </main>
-</div>
+<p>{% t index.welcome %}</p>

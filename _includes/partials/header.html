@@ -1,5 +1,18 @@
-{% for my_page in site.pages %}
-  {% if my_page.title %}
-    <a class="site-title" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
-  {% endif %}
-{% endfor %}
+<header>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="{% t common.description %}">
+
+  <title>{% if page.title %}{{ page.title | site.title }}{% else %}{{ site.title | escape | }}{% endif %}</title>
+
+  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+
+  <link rel="shortcut icon" sizes="16x16 24x24 32x32 48x48 64x64" href="{% asset_path 'favicon.ico' %}" />
+
+  <!--Scripts-->
+  {% js main %}
+
+  <!-- Style -->
+  {% css main %}
+</header>

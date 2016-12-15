@@ -1,0 +1,6 @@
+<nav>
+  <!--PAGES-->
+  {% for my_page in site.pages %}
+    <a href="{{ site.baseurl_root }}{{ my_page.url }}">{{ my_page.title }}</a>
+   {% endfor %}
+</nav>

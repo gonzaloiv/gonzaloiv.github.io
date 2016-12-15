@@ -1,26 +1,13 @@
 ---
+title: Blog
 layout: main
 ---
 
-{% include partials/header.html %}
+{% if site.posts %}
+  {% for post in site.posts %}
+    <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }} </a></h1>
+    <small>{{ post.date | date: '%B, %d, %y' }}</small>
+    <small>{{ post.categories }}</small>
+  {% endfor %}
+{% endif %}
 
-<div class="wrapper">
-  <header>
-    <div class="logo-container">
-      <a class="logo" href="{{ page.baseurl }}">
-        {% image logo.png class: "logo" %}
-      </a>
-    </div>
-    <div class="blog-title-container">
-      <h1>{% t common.title %}</h1>
-    </div>
-    <div class="tagline-container">
-      <p>{% t common.description %}</p>
-    </div>
-  </header>
-  <main>
-    <div class="content">
-      {% include blog/posts.html %}
-    </div>
-  </main>
-</div>
