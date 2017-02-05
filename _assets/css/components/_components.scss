@@ -17,6 +17,12 @@ b {
   font-weight: 700;
 }
 
+hr {
+  border: none;
+  border-top: 2px solid $gray-text-color;
+  border-left: none;
+}
+
 main {
   padding-top: 8rem;
   padding-right: calc(50% - 19.1688rem);
@@ -26,7 +32,6 @@ main {
 nav {
   word-spacing: 1rem;
   font-family: $sans-serif;
-  border-bottom: 2px solid $gray-text-color;
   padding-bottom: .6rem;
 }
 
@@ -46,6 +51,7 @@ section h1 {
 
 section h3 {
   font-weight: 400;
+  font-size: $base-font-size * 0.8;
   margin-top: 0.8rem;
   margin-bottom: 0.1rem;
 }
@@ -68,12 +74,34 @@ section h4 a:hover {
 
 section p {
   line-height: $p-line-height;
-  margin-top: 0.8rem;
-  margin-bottom: 0.8rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
 section small {
   font-family: $serif;
+}
+
+section table {
+  text-align: left;
+  font-weight: inherit;
+}
+
+section table td {
+  padding: 0;
+}
+
+section table td h1,
+section table td span {
+  padding-left: 0.3em;
+  padding-right: 0.3em;
+}
+
+section img {
+  float: right;
+  right: 0;
+  width: 5em;
+  height: 5em;
 }
 
 footer {
@@ -93,7 +121,7 @@ footer small {
 
 @media only screen and (max-width: 480px) {
   main {
-    padding-top: 7rem;
+    padding-top: 4rem;
     padding-right: 1.4rem;
     padding-left: 1.4rem;
   }
