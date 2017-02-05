@@ -11,6 +11,6 @@ gems:
   - jekyll-multiple-languages-plugin
 
 # Localization
-languages: ["es"]
+languages: ["es", "en"]
 language_default: "es"
 exclude_from_localizations: ["javascript", "images", "css"]

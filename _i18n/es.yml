@@ -1,16 +1,17 @@
 common:
-  author: Gonzalo Iglesias Vilachán
-  description: Comunicación, diseño y programación
+  author: "Gonzalo Iglesias Vilachán"
+  description: "Media, culture & code"
 
 global:
-  spanish: Spanish
-  english: English
+  spanish: "Spanish"
+  english: "English"
 
 index:
-  welcome: "A full time explorer from Santiago de Compostela currently doing an internship at Cyberspace Solutions. These are some of the things I have been doing lately:"
+  welcome: "Hi! This is Gonzalo Iglesias Vilachán's personal site. Gonzalo is interested in media, culture and code, he is probably thinking on stuff related to one of those right now..."
 
 about:
   description: "A full time explorer from Santiago de Compostela currently doing an internship at Cyberspace Solutions. These are some of the things I have been doing lately:"
   cv_link: "https://drive.google.com/file/d/0B4Ai2actge7mVVNSVTZBeXRjdEk/view?usp=sharing"
 
 blog:
+  category: "en "

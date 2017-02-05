@@ -1,18 +1,17 @@
 common:
-  title: Things, stuff and other stories...
-  author: Gonzalo Iglesias Vilachán
-  description: Media, Culture and Code
-  email: gonzalo_iglesias_vilachan@hotmail.com
-  twitter_username: iamgonzaloiv
-  github_username:  gonzaloiv
+  author: "Gonzalo Iglesias Vilachán"
+  description: "Media, culture & code"
 
 global:
-  spanish: Español
-  english: Inglés
+  spanish: "Spanish"
+  english: "English"
 
-about_me:
+index:
+  welcome: "Hi! This is Gonzalo Iglesias Vilachán's personal site. Gonzalo is a full-stack explorer of media, culture and code and right now, he is probably thinking on something related to one of those right now..."
+
+about:
   description: "A full time explorer from Santiago de Compostela currently doing an internship at Cyberspace Solutions. These are some of the things I have been doing lately:"
   cv_link: "https://drive.google.com/file/d/0B4Ai2actge7mVVNSVTZBeXRjdEk/view?usp=sharing"
 
 blog:
-  no_posts: "No posts published in english..."
+  category: "on "

@@ -5,9 +5,9 @@ layout: main
 
 {% if site.posts %}
   {% for post in site.posts %}
-    <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }} </a></h1>
+    <h4><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }} </a></h4>
     <small>{{ post.date | date: '%B, %d, %y' }}</small>
-    <small>{{ post.categories }}</small>
+    <small>{{ t blog.category }}{{ post.categories }}</small>
   {% endfor %}
 {% endif %}
 

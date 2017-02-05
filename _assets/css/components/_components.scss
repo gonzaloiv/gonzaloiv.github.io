@@ -1,11 +1,11 @@
 body {
-  padding-top: 7rem;
   background-color: $background-color;
   color: $main-text-color;
   font-size: $base-font-size;
 }
 
 main {
+  padding-top: 8rem;
   padding-right: calc(50% - 19.1688rem);
   padding-left: calc(50% - 19.1688rem);
 }
@@ -20,21 +20,38 @@ a:hover {
 }
 
 nav {
+  word-spacing: 1em;
   font-family: $sans-serif;
+  border-bottom: 1px dotted $gray-text-color;
+  padding-bottom: .6em;
 }
 
 section {
   font-family: $serif;
+  margin-top: 1.2em;
 }
 
 section h1 {
   font-size: $base-font-size * 1.1;
   font-family: $sans-serif, sans-serif;
+  margin-top: 0.4em;
+  margin-bottom: 0.1em;
 }
 
 section h4 {
   font-family: $sans-serif, sans-serif;
   text-transform: uppercase;
+  margin-top: 0.2em;
+  margin-bottom: 0.1em;
+}
+
+section h4 a {
+  color: $main-text-color;
+  text-decoration: underline;
+}
+
+section h4 a:hover {
+  color: $hover-link-color;
 }
 
 section p {
@@ -46,10 +63,42 @@ section small {
 }
 
 footer {
-  float: right;
+  position: fixed;
+  bottom: 1rem;
+  right: calc(50% - 19.1688rem);
 }
 
 footer small {
+  font-size: $base-font-size * 0.4;
   font-family: $sans-serif;
   color: $gray-text-color;
 }
+
+
+/* Extra Small Devices, Phones */
+
+@media only screen and (max-width: 480px) {
+  main {
+    padding-top: 7rem;
+    padding-right: 1.4rem;
+    padding-left: 1.4rem;
+  }
+  footer {
+    right: 1.4rem;
+  }
+}
+
+
+/* Small Devices, Tablets */
+
+@media only screen and (max-width: 768px) {}
+
+
+/* Medium Devices, Desktops */
+
+@media only screen and (max-width: 992px) {}
+
+
+/* Large Devices, Wide Screens */
+
+@media only screen and (max-width: 1200px) {}
