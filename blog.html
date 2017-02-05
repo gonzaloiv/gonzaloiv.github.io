@@ -1,13 +1,13 @@
 ---
-title: Blog
+title: Blog(es)
 layout: main
 ---
 
+<h1>{% t blog.header %}</h1>
 {% if site.posts %}
   {% for post in site.posts %}
     <h4><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }} </a></h4>
-    <small>{{ post.date | date: '%B, %d, %y' }}</small>
-    <small>{{ t blog.category }}{{ post.categories }}</small>
+    <small>{{ post.categories }}. </small>
+    <small>{% t blog.date %}{{ post.date | date: "%d/%m/%Y" }}.</small>
   {% endfor %}
 {% endif %}
-

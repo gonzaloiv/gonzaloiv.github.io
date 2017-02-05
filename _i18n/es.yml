@@ -7,11 +7,13 @@ global:
   english: "English"
 
 index:
-  welcome: "Hi! This is Gonzalo Iglesias Vilachán's personal site. Gonzalo is interested in media, culture and code, he is probably thinking on stuff related to one of those right now..."
+  greeting: "Hi!"
+  welcome: "This is Gonzalo Iglesias Vilachán's personal site. Gonzalo is a full-stack explorer interested in media, culture and code. Actually, he is probably thinking on something related to that right now..."
 
 about:
-  description: "A full time explorer from Santiago de Compostela currently doing an internship at Cyberspace Solutions. These are some of the things I have been doing lately:"
-  cv_link: "https://drive.google.com/file/d/0B4Ai2actge7mVVNSVTZBeXRjdEk/view?usp=sharing"
+  cv_link_es: "https://drive.google.com/uc?id=0B4Ai2actge7mSm9pQWpJZlJ1SFE"
+  cv_link_en: "https://drive.google.com/uc?id=0B4Ai2actge7meEhoQUFEVmYzNlE"
 
 blog:
-  category: "en "
+  header: "Últimos artículos"
+  date: "Escrito el "
