@@ -3,8 +3,8 @@ common:
   description: "Media, culture & code"
 
 global:
-  spanish: "Spanish"
-  english: "English"
+  spanish: "es"
+  english: "en"
 
 index:
   greeting: "Hi!"
