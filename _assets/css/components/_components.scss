@@ -115,7 +115,7 @@ section img {
 }
 
 footer {
-  padding-bottom: 2rem;
+  margin-bottom: 2rem;
   padding-top: 2rem;
   text-align: center;
 }
@@ -131,7 +131,7 @@ footer small {
 
 @media only screen and (max-width: 480px) {
   main {
-    padding-top: 4rem;
+    padding-top: 3rem;
     padding-right: 1.4rem;
     padding-left: 1.4rem;
   }

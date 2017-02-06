@@ -1,6 +1,5 @@
 common:
   author: "Gonzalo Iglesias Vilachán"
-  description: "Media, culture & code"
 
 global:
   spanish: "es"
@@ -8,7 +7,7 @@ global:
 
 index:
   greeting: "Hola!"
-  welcome: "Ésta es la web personal de Gonzalo Iglesias Vilachán. Gonzalo es un explorador <em>full-stack</em> enfocado en la <b>comunicación</b>, la <b>cultura</b> y la <b>programación</b>. De hecho, ahora mismo posiblemente esté pensando en algo relacionado con alguna de ellas..."
+  welcome: "Ésta es la página personal de Gonzalo Iglesias Vilachán. Gonzalo es un explorador <em>full-stack</em> enfocado en la <b>comunicación</b>, la <b>cultura</b> y la <b>programación</b>. De hecho, ahora mismo posiblemente esté pensando en algo relacionado con ello..."
 
 about:
   cv_link_es: "https://drive.google.com/uc?id=0B4Ai2actge7mSm9pQWpJZlJ1SFE"
