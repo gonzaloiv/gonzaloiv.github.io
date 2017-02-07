@@ -1,5 +1,6 @@
 common:
   author: "Gonzalo Iglesias Vilachán"
+  description: "Comunicación, cultura y programación"
 
 global:
   spanish: "es"
