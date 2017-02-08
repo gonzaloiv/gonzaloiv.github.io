@@ -92,9 +92,8 @@ section small {
   font-family: $serif;
 }
 
-section img {
-  // width: 100%;
-  // height: 100%;
+section code {
+  font-size: $base-font-size * 0.4;
 }
 
 footer {
