@@ -11,6 +11,7 @@ index:
   welcome: "This is Gonzalo Iglesias Vilachán's personal site. Gonzalo is a full-stack explorer interested in <b>media</b>, <b>culture</b> and <b>code</b>. Actually, he is probably thinking on something related to that right now..."
 
 about:
+  title: "About me"
   cv_link_es: "https://drive.google.com/uc?id=0B4Ai2actge7mSm9pQWpJZlJ1SFE"
   cv_link_en: "https://drive.google.com/uc?id=0B4Ai2actge7meEhoQUFEVmYzNlE"
 

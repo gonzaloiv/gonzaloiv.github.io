@@ -1,5 +1,4 @@
 // Alignment
-
 .pull-right {
 	text-align: right;
 	float: right;
@@ -8,4 +7,14 @@
 .pull-left {
 	text-align: left;
 	float: left;
+}
+
+.pd-top {
+	padding-top: 2.5rem;
+}
+
+@media only screen and (max-width: 480px) {
+  .pd-top {
+		padding-top: 0rem;
+	}
 }
