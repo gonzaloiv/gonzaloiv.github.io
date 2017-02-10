@@ -1,5 +1,5 @@
 ---
-layout: main
+layout: post
 categories: Cultura
 title: Identidades imposibles
 date: 2015-05-11

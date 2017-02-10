@@ -1,5 +1,5 @@
 ---
-layout: main
+layout: post
 categories: Cultura
 title: Geometría de las ausencias
 date: 2015-11-30

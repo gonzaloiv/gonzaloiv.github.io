@@ -1,5 +1,5 @@
 ---
-layout: main
+layout: post
 categories: Cultura
 title: Otros géneros
 date: 2015-04-13

@@ -1,5 +1,5 @@
 ---
-layout: main
+layout: post
 categories: Cultura
 title: El campo como límite
 date: 2015-11-04

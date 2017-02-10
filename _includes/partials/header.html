@@ -5,8 +5,7 @@
   <meta name="description" content="{% t common.description %}">
   <title>{% if page.title %}{{ page.title}} | {{site.title }}{% else %}{{ site.title }}{% endif %}</title>
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
-  <link rel="icon" href="{% asset_path 'fav.ico' %}" type="image/x-icon"/>
-  <link rel="shortcut icon" sizes="16x16 24x24 32x32" href="{% asset_path 'fav.ico' %}" />
+  <link rel="shortcut icon" sizes="16x16 24x24 32x32 48x48 64x64" href="{% asset_path 'favicon.ico' %}" />
   {% js main %}
   {% css main %}
 </header>

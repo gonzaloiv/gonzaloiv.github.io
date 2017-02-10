@@ -1,5 +1,5 @@
 ---
-layout: main
+layout: post
 categories: Cultura
 title: "\"Intertextualidad\""
 date: 2016-01-03

@@ -1,5 +1,5 @@
 ---
-layout: main
+layout: post
 categories: Cultura
 title: La imagen de la experiencia
 date: 2016-01-09
