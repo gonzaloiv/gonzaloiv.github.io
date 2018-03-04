@@ -21,7 +21,7 @@ Hoy por lo tanto, el reto parece conseguir mantener una visión crítica y acad�
 
 <br>
 
-#### La image de la ciudad
+#### La imagen de la ciudad
 
 Cuando leemos el cuarto capítulo de *La imagen de la ciudad* de Kevin Lynch, dedicado a la forma de la ciudad, no podemos evitar comparar la mirada del urbanista sobre Boston con la que propone Levi-Strauss de Nueva York en Tristes trópicos. Ambos observan la ciudad cómo una ecología natural, como un paisaje demasiado complejo para haber sido planificado; en el que la forma y sus los elementos, son parte de un sistema de relaciones cómo el de la flora o la fauna. Tanto uno cómo el otro inciden de manera clara en la existencia de patrones constantes en la experiencia humana, en uno la forma imaginada de la ciudad, en otro las estructuras sociales. Esta aspiración hacia lo estructural es una de las claves para comprender la herencia de Lynch en los medios digitales, la otra es su método.
 
