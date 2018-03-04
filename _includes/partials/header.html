@@ -6,6 +6,7 @@
   <title>{% if page.title %}{{ page.title}} | {{site.title }}{% else %}{{ site.title }}{% endif %}</title>
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   <link rel="shortcut icon" sizes="16x16 24x24 32x32 48x48 64x64" href="{% asset_path 'favicon.ico' %}" />
+  <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
   {% css main %}
   {% js main %}
 </header>
