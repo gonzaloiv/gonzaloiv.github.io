@@ -14,3 +14,19 @@ about:
 blog:
   header: "Artículos"
   date: "Escrito el "
+
+projects:
+  header: "Projects"
+  links:
+    giacomo: "https://play.google.com/store/apps/details?id=com.digitallove.cannonrush"
+    rc_car: "https://play.google.com/store/apps/details?id=com.cgmobile.rc"
+    rc_mad_chase: "https://play.google.com/store/apps/details?id=com.tnt.rc.chase.racing.mad.cars.game"
+    rc_mini: "https://play.google.com/store/apps/details?id=com.tnt.rc.micro.racing.toy.cars.battle.weapons"
+    rc_drone_simulator: "https://play.google.com/store/apps/details?id=com.tnt.rc.drone.real.flight.simulator"
+    rc_racing_challenge: "https://play.google.com/store/apps/details?id=com.tnt.games.rc.mini.racing.cars.challenge"
+    rc_drone: "https://play.google.com/store/apps/details?id=com.tnt.rc.drone.racing.air.rivals"
+    apocalypse_hunters: "http://apocalypsehunters.com"
+    pew_pew: "https://play.google.com/store/apps/details?id=com.ApocalypseHunters.PewPewStuffDiesAR"
+    tropa_verde: "http://tropaverde.org"
+    gdr: "http://gestoresderesiduos.org"
+    sketches: "http://oneofthosethingsfirst.tumblr.com"

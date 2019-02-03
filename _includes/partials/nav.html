@@ -3,8 +3,10 @@
   <!--PAGES SELECTOR-->
   {% for p in site.pages %}
     {% if p.title != page.title %}
-      {% if site.lang == "en" and p.title != "Blog(es)" %}
-        <a href="/en{{ p.url }}">{{ p.title }}</a>
+      {% if site.lang == 'en' %}
+        {% if p.title != 'Blog' %}
+          <a href="/en{{ p.url }}">{{ p.title }}</a>
+        {% endif %}    
       {% else %}
         <a href="{{ p.url }}">{{ p.title }}</a>
       {% endif %}
@@ -12,7 +14,7 @@
   {% endfor %}
 
   <!--LANGUAGE SELECTOR-->
-  {% if page.title == "About" or page.title == "Home" %}
+  {% if page.title != "Blog" %}
   {{ print page.title }}
     {% if site.lang == "es" %}
       {% capture link1 %}{{ site.baseurl_root }}en{{ page.url}}{% endcapture %}
