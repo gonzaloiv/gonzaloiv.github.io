@@ -18,6 +18,7 @@ blog:
 projects:
   header: "Projects"
   links:
+    zero: "https://play.google.com/store/apps/details?id=com.digitallove.zero"
     giacomo: "https://play.google.com/store/apps/details?id=com.digitallove.cannonrush"
     rc_car: "https://play.google.com/store/apps/details?id=com.cgmobile.rc"
     rc_mad_chase: "https://play.google.com/store/apps/details?id=com.tnt.rc.chase.racing.mad.cars.game"
