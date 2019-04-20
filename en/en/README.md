@@ -1,3 +1,0 @@
-# Hi!
-
-This is Gonzalo Iglesias Vilachán's personal site. Gonzalo is a full-stack explorer interested in <b>media</b>, <b>culture</b> and <b>code</b>. Actually, he is probably thinking on something related to that right now...
