@@ -18,6 +18,7 @@ blog:
 projects:
   header: "Proyectos"
   links:
+      die: "https://play.google.com/store/apps/details?id=com.digitallove.die"
       zero: "https://play.google.com/store/apps/details?id=com.digitallove.zero"
       giacomo: "https://play.google.com/store/apps/details?id=com.digitallove.cannonrush"
       rc_car: "https://play.google.com/store/apps/details?id=com.cgmobile.rc"
